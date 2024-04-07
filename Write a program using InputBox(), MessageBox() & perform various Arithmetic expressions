@@ -1,0 +1,27 @@
+Public Class Form1
+ Dim i, j, r As Integer
+ Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+ i = InputBox("Enter First Value")
+ j = InputBox("Enter Second Value")
+ r = Val(i) - Val(j)
+ MsgBox("Substract = " & r)
+ End Sub
+ Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+ i = InputBox("Enter First Value")
+ j = InputBox("Enter Second Value")
+ r = Val(i) / Val(j)
+ MsgBox("Divide = " & r)
+ End Sub
+ Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+ i = InputBox("Enter First Value")
+ j = InputBox("Enter Second Value")
+ r = Val(i) * Val(j)
+ MsgBox("Multiply = " & r)
+ End Sub
+ Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+ i = InputBox("Enter First Value")
+ j = InputBox("Enter Second Value")
+ r = Val(i) + Val(j)
+ MsgBox("Addition = " & r)
+ End Sub
+End Class
