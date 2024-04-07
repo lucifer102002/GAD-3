@@ -1,0 +1,14 @@
+Module Module1
+ Dim i, j, r As Integer
+ Sub Main()
+ Console.WriteLine("Enter First Value=")
+ i = Console.ReadLine()
+ Console.WriteLine("Enter Second Value=")
+ j = Console.ReadLine()
+ Console.ReadLine()
+ MsgBox("Addition =" & (i + j))
+ MsgBox("Substraction =" & (i - j))
+ MsgBox("Multiplication =" & (i * j))
+ MsgBox("Division =" & (i / j))
+ End Sub
+End Module
